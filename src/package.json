@@ -1,0 +1,32 @@
+{
+  "name": "opstack-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opinionatedstack/opstack-rest.git"
+  },
+  "author": "patricknee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opinionatedstack/opstack-rest/issues"
+  },
+  "homepage": "https://github.com/opinionatedstack/opstack-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.18.0",
+    "jwks-rsa": "^1.4.0",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  }
+}
